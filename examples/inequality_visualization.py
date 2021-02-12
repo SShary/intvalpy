@@ -1,4 +1,4 @@
-# This file will suggest several systems for a fuller understanding.
+# This file provides several intervals systems for a better understanding. 
 #
 # In the case of a point system of linear inequalities A x >= b to visualize the
 # set of solutions the function lineqs is provided.
