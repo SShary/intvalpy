@@ -14,7 +14,7 @@ pip install intvalpy
 
 ## Examples
 
-### Visualizing solutions
+### Visualizing solution sets
 
 We can calculate the list of vertices of the convex set described by a point the system of inequalities ``A * x >= b`` or
 if an interval system of equations is considered ``A * x = b`` as well as visualize this set:
