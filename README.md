@@ -47,7 +47,7 @@ vertices = lineqs(A2, b2, color='blue', alpha=0.2, size=(12,12))
 ```
 ![SolSet](https://raw.githubusercontent.com/AndrosovAS/intvalpy/master/examples/SolSet.png)
 
-### External decision evaluation:
+### Outer estimation of the solution sets 
 
 To obtain an outer estimate (enclosure) of the solution set to an interval linear system of algebraic equations, 
 we can use various methods and techniques elaborated in the last decades. One of the most powerful thechniques 
@@ -64,7 +64,7 @@ b = ip.Interval([-1, -1, -1], [2, 2, 2])
 ip.PSS(A, b)
 ```
 
-### Interval system of nonlinear equations:
+### Interval systems of nonlinear equations:
 
 This library also implements a multivariate interval Kravchik and Hansen-Sengupta methods for solving nonlinear systems:
 
