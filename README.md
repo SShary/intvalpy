@@ -49,7 +49,10 @@ vertices = lineqs(A2, b2, color='blue', alpha=0.2, size=(12,12))
 
 ### External decision evaluation:
 
-To obtain an external estimate of an interval linear system of algebraic equations, we can use the method of crushing solutions PSS:
+To obtain an outer estimate (enclosure) of the solution set to an interval linear system of algebraic equations, 
+we can use various methods and techniques elaborated in the last decades. One of the most powerful thechniques 
+is that based on partitioning the solution set (PSS-methods). It is implemented in our library, and an example 
+of its call is as follows: 
 
 ```python
 import intvalpy as ip
